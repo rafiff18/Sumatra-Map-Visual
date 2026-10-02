@@ -11,6 +11,38 @@ An interactive geospatial visualization and analytics platform for regional ecos
 - Scenario Simulation Tool: Interactive interface allowing users to adjust environmental indicators (vegetation index, temperature, rainfall) to evaluate risk patterns.
 - FastAPI Backend Service: RESTful API service providing spatial queries, zone statistics, and on-demand model inference.
 
+## Technology Stack
+
+### Frontend & Geospatial Visualization
+- Web Framework: Next.js 16 (App Router, Turbopack compiler)
+- Core Library: React 19
+- Language: TypeScript 5
+- Geospatial WebGL Engine: Deck.gl 9.4 (@deck.gl/core, @deck.gl/react, @deck.gl/layers, @deck.gl/aggregation-layers)
+- Map Engine: MapLibre GL 6.9
+- Basemap Layers: Esri ArcGIS Online (World Topo, World Imagery, World Street) and OpenStreetMap (OSM)
+- Styling: Tailwind CSS v4 (@tailwindcss/postcss)
+- Icons: Lucide React
+- Typography: Inter, JetBrains Mono, Space Grotesk (Google Fonts)
+
+### Backend & API Services
+- Framework: FastAPI 0.110+ (Asynchronous ASGI framework)
+- Web Server: Uvicorn 0.28+ (Standard with uvloop and httptools)
+- Data Validation: Pydantic v2
+- Testing: Starlette TestClient / HTTPX
+- Middleware: Starlette CORSMiddleware
+
+### Data Science & Machine Learning
+- Machine Learning: Scikit-Learn 1.4+ (Isolation Forest, Decision Tree, Random Forest)
+- Data Processing: Pandas 2.2+, NumPy 1.26+
+- Storage & Columnar Format: Apache Arrow / PyArrow 15.0+ (Apache Parquet format with Snappy compression)
+- Model Serialization: Joblib 1.3+
+
+### Architecture & Spatial Protocols
+- Spatial Format: Columnar Parquet, GeoJSON (RFC 7946)
+- Coordinate Reference System (CRS): WGS84 (EPSG:4326)
+- API Serialization: RESTful JSON with zero-overhead coordinate array serialization
+
+
 ## How to Run
 
 ### Prerequisites

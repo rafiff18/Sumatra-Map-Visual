@@ -11,6 +11,19 @@ The frontend web client for the SMEST Geospatial Visualization Platform. This ap
 - Scenario Simulation: Interactive drawer allowing operators to manipulate vegetation, temperature, and rainfall parameters to inspect live model predictions and recommendations.
 - Resilient Data Architecture: Dual-mode architecture that connects to the FastAPI backend with static local JSON cache fallback.
 
+## Technology Stack
+
+- Framework: Next.js 16 (App Router, Turbopack compiler)
+- Core Library: React 19
+- Language: TypeScript 5
+- Geospatial WebGL Engine: Deck.gl 9.4 (@deck.gl/core, @deck.gl/react, @deck.gl/layers, @deck.gl/aggregation-layers)
+- Map Engine: MapLibre GL 6.9
+- Basemap Providers: Esri ArcGIS Online (World Topo, World Imagery, World Street) and OpenStreetMap (OSM)
+- Styling: Tailwind CSS v4 (@tailwindcss/postcss)
+- Icons: Lucide React
+- Typography: Inter, JetBrains Mono, Space Grotesk (Google Fonts)
+
+
 ## How to Run
 
 ### Prerequisites
