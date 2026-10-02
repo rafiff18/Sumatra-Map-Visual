@@ -1,0 +1,167 @@
+{
+  "total_points": 8796097,
+  "evi": {
+    "mean": 0.4565,
+    "std": 0.0845,
+    "min": -0.1928,
+    "max": 0.9811
+  },
+  "lst": {
+    "mean": 28.85,
+    "std": 2.88,
+    "min": 8.03,
+    "max": 40.51
+  },
+  "precipitation": {
+    "mean": 8.34,
+    "std": 1.46,
+    "min": 3.68,
+    "max": 19.95
+  },
+  "zones": {
+    "0": {
+      "name": "Dataran Tinggi Sejuk",
+      "description": "Suhu sejuk (24.3°C), vegetasi sedang-tinggi, curah hujan sedang.",
+      "count": 1050455,
+      "percentage": 11.94,
+      "evi": {
+        "mean": 0.4442,
+        "std": 0.0616,
+        "min": 0.1443,
+        "max": 0.6876
+      },
+      "lst": {
+        "mean": 24.29,
+        "std": 1.06,
+        "min": 8.03,
+        "max": 28.83
+      },
+      "precipitation": {
+        "mean": 9.09,
+        "std": 0.66,
+        "min": 7.76,
+        "max": 12.45
+      }
+    },
+    "1": {
+      "name": "Dataran Rendah Tropis Hangat",
+      "description": "Suhu hangat (30.5°C), vegetasi sedang, curah hujan rendah (rentan kering).",
+      "count": 3170668,
+      "percentage": 36.05,
+      "evi": {
+        "mean": 0.4528,
+        "std": 0.0522,
+        "min": 0.2917,
+        "max": 0.9225
+      },
+      "lst": {
+        "mean": 30.53,
+        "std": 0.92,
+        "min": 27.07,
+        "max": 39.63
+      },
+      "precipitation": {
+        "mean": 7.51,
+        "std": 0.68,
+        "min": 3.68,
+        "max": 9.65
+      }
+    },
+    "2": {
+      "name": "Hutan Hujan Dataran Rendah Lebat",
+      "description": "Indeks vegetasi EVI tinggi (0.50), suhu hangat, curah hujan cukup.",
+      "count": 2871823,
+      "percentage": 32.65,
+      "evi": {
+        "mean": 0.4986,
+        "std": 0.0509,
+        "min": 0.3453,
+        "max": 0.9029
+      },
+      "lst": {
+        "mean": 30.18,
+        "std": 1.28,
+        "min": 24.0,
+        "max": 37.97
+      },
+      "precipitation": {
+        "mean": 8.87,
+        "std": 0.75,
+        "min": 6.22,
+        "max": 11.59
+      }
+    },
+    "3": {
+      "name": "Pegunungan Basah (Hujan Tinggi)",
+      "description": "Curah hujan sangat tinggi (14.1mm), vegetasi sangat lebat, suhu sejuk.",
+      "count": 267508,
+      "percentage": 3.04,
+      "evi": {
+        "mean": 0.5026,
+        "std": 0.0622,
+        "min": -0.0337,
+        "max": 0.9811
+      },
+      "lst": {
+        "mean": 27.93,
+        "std": 1.42,
+        "min": 21.47,
+        "max": 35.41
+      },
+      "precipitation": {
+        "mean": 13.95,
+        "std": 1.69,
+        "min": 11.23,
+        "max": 19.95
+      }
+    },
+    "4": {
+      "name": "Lahan Terbuka / Area Kritis",
+      "description": "EVI sangat rendah (0.23), suhu permukaan tinggi, area terbuka/degradasi.",
+      "count": 483494,
+      "percentage": 5.5,
+      "evi": {
+        "mean": 0.2255,
+        "std": 0.1147,
+        "min": -0.1928,
+        "max": 0.3629
+      },
+      "lst": {
+        "mean": 29.94,
+        "std": 2.18,
+        "min": 18.21,
+        "max": 40.51
+      },
+      "precipitation": {
+        "mean": 8.33,
+        "std": 1.27,
+        "min": 3.68,
+        "max": 16.28
+      }
+    },
+    "5": {
+      "name": "Pegunungan Sedang",
+      "description": "Suhu sejuk (24.0°C), vegetasi stabil, curah hujan relatif rendah.",
+      "count": 952149,
+      "percentage": 10.82,
+      "evi": {
+        "mean": 0.4603,
+        "std": 0.0627,
+        "min": 0.1799,
+        "max": 0.7191
+      },
+      "lst": {
+        "mean": 23.97,
+        "std": 1.56,
+        "min": 8.03,
+        "max": 27.57
+      },
+      "precipitation": {
+        "mean": 7.1,
+        "std": 0.55,
+        "min": 5.52,
+        "max": 8.68
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+# Large data files (> 100MB & raw datasets)
+*.parquet
+*.csv
+*.joblib
+!spatial_sample.parquet
+!hotspots_anomalies.parquet
+
+# Model weights & training checkpoints
+*.pth
+*.pt
+*.h5
+*.onnx
+*.pkl
+train_autoencoder.py
+
+# Python cache & virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Node & Next.js build
+node_modules/
+.next/
+out/
+build/
+dist/
+.turbo/
+*.tsbuildinfo
+
+# Internal Documentation & Strategy
+PRD_SMEST.md
+SMEST_DESIGN_DOCUMENT.md
+PANDUAN_PENGGUNAAN_SMEST.md
+
+# Scratch, test scripts & debug artifacts
+inspect_browser.mjs
+actual_render.png
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# Environment & local secrets
+.env*
+*.env
+*.key
+*.pem
+*.cert
+
+# HTML & UI prototypes
+stitch_screen_dark.html
+stitch_smest_command_center_light.html
+stitch_smest_command_center.html
+*.stitch_*.html
+
+# MCP
+mcp_config.json
+mcp_server.py
+*mcp*
+
+# OS & Editor Artifacts
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
